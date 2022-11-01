@@ -1,0 +1,65 @@
+@media screen and (max-width: 900px) {
+    .dis_none2 {
+        display: none;
+    }
+
+    .dis_none {
+        display: flex;
+    }
+
+    .big_box {
+        width: 400px;
+        height: 1200px;
+    }
+
+    .b {
+        font-size: 15px;
+    }
+
+    .mid_box {
+        flex-direction: column;
+    }
+
+    .left_mid_box {
+        height: 15%;
+        width: 100%;
+    }
+
+    .nav {
+        height: 100%;
+    }
+
+    .right_mid_box {
+        width: 100%;
+    }
+
+    .top_right_mid_box {
+        height: 25%;
+    }
+
+    .bot_right_mid_box {
+        height: 60%;
+        flex-direction: column;
+    }
+
+    .types {
+        height: 70%;
+        width: 100%;
+    }
+
+    .related {
+        height: 30%;
+        width: 100%;
+    }
+
+    .inviz_right_mid_box {
+        width: 100%;
+        height: 15%;
+    }
+
+    .store_tools {
+        height: 100%;
+        width: 50%;
+    }
+
+}
