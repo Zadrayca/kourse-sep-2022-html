@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) {
+    .big_box {
+        width: 600px;
+        height: 600px;
+    }
+
+    .main_box {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .top {
+        height: 25%;
+    }
+
+    .bot {
+        height: 75%;
+    }
+
+    .a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .b {
+        width: 100%;
+        height: 66.66%;
+    }
+
+    .c {
+        width: 100%;
+        height: 33.33%;
+    }
+
+}

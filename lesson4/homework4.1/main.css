@@ -1,0 +1,68 @@
+.father_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.big_box {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 600px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+.main_box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+.top {
+    height: 33.33%;
+}
+
+.bot {
+    height: 66.66%;
+}
+
+.mini_box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: silver;
+    font-size: 25px;
+}
+
+.a {
+    width: 100%;
+    height: 100%;
+}
+
+.b {
+    width: 80%;
+    height: 100%;
+
+}
+
+.c {
+    width: 20%;
+    height: 100%;
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width: 900px) {
+    .big_box {
+        width: 600px;
+        height: 800px;
+    }
+
+    .top_box {
+        height: 20%;
+    }
+
+    .bot_box {
+        flex-direction: column;
+        height: 80%;
+        row-gap: 10px;
+    }
+
+    .left_box {
+        height: 75%;
+        width: 100%;
+    }
+
+    .right_box {
+        height: 25%;
+        width: 100%;
+    }
+
+    .left_top_box {
+        height: 66.66%;
+    }
+
+    .left_bot_box {
+        height: 33.33%;
+    }
+}
